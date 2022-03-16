@@ -5,6 +5,9 @@ import androidx.compose.material.MaterialTheme
 import androidx.compose.material.darkColors
 import androidx.compose.material.lightColors
 import androidx.compose.runtime.Composable
+import androidx.compose.ui.text.TextStyle
+import androidx.compose.ui.unit.dp
+import androidx.compose.ui.unit.sp
 
 private val DarkColorPalette = darkColors(
     primary = Purple200,
@@ -26,6 +29,10 @@ private val LightColorPalette = lightColors(
     onSurface = Color.Black,
     */
 )
+
+val PrimaryH4
+@Composable
+    get() = TextStyle(fontSize = 20.sp, color = if (isSystemInDarkTheme()) Teal200 else Teal200)
 
 @Composable
 fun Composelabs1Theme(darkTheme: Boolean = isSystemInDarkTheme(), content: @Composable () -> Unit) {
