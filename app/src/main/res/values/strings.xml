@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">composelabs1</string>
+    <string name="long_text">Mussum Ipsum, cacilds vidis litro abertis. Todo mundo vê os porris que eu tomo, mas ninguém vê os tombis que eu levo!Interagi no mé, cursus quis, vehicula ac nisi.Copo furadis é disculpa de bebadis, arcu quam euismod magna.Aenean aliquam molestie leo, vitae iaculis nisl.</string>
+    <string name="show_less">Show less</string>
+    <string name="show_more">Show more</string>
+    <string name="hello">Hello,</string>
 </resources>
